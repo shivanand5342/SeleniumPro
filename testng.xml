@@ -1,0 +1,10 @@
+<suite name="Suite" parallel="tests">
+  <test name="TestChrome">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="scripts.ValidLogin"/>
+     
+    </classes>
+  </test> 
+</suite> 
+ 
